@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pose", "pose.vcxproj", "{05BC4FE5-D460-4373-A996-F87E256F2FC1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37D52D93-82EB-383B-B33E-02C0D29F28D1} = {37D52D93-82EB-383B-B33E-02C0D29F28D1}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_aruco", "H:\soft\develop\opencv\opencv4.1.0\buildvs15\modules\aruco\opencv_aruco.vcxproj", "{2EED2410-299A-35D6-A38D-B71E2BF7D260}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_aruco", "H:\soft\develop\opencv\opencv4.1.2\buildvs15\modules\aruco\opencv_aruco.vcxproj", "{37D52D93-82EB-383B-B33E-02C0D29F28D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +26,12 @@ Global
 		{05BC4FE5-D460-4373-A996-F87E256F2FC1}.Release|x64.Build.0 = Release|x64
 		{05BC4FE5-D460-4373-A996-F87E256F2FC1}.Release|x86.ActiveCfg = Release|Win32
 		{05BC4FE5-D460-4373-A996-F87E256F2FC1}.Release|x86.Build.0 = Release|Win32
-		{2EED2410-299A-35D6-A38D-B71E2BF7D260}.Debug|x64.ActiveCfg = Debug|x64
-		{2EED2410-299A-35D6-A38D-B71E2BF7D260}.Debug|x64.Build.0 = Debug|x64
-		{2EED2410-299A-35D6-A38D-B71E2BF7D260}.Debug|x86.ActiveCfg = Debug|x64
-		{2EED2410-299A-35D6-A38D-B71E2BF7D260}.Release|x64.ActiveCfg = Release|x64
-		{2EED2410-299A-35D6-A38D-B71E2BF7D260}.Release|x64.Build.0 = Release|x64
-		{2EED2410-299A-35D6-A38D-B71E2BF7D260}.Release|x86.ActiveCfg = Release|x64
+		{37D52D93-82EB-383B-B33E-02C0D29F28D1}.Debug|x64.ActiveCfg = Debug|x64
+		{37D52D93-82EB-383B-B33E-02C0D29F28D1}.Debug|x64.Build.0 = Debug|x64
+		{37D52D93-82EB-383B-B33E-02C0D29F28D1}.Debug|x86.ActiveCfg = Debug|x64
+		{37D52D93-82EB-383B-B33E-02C0D29F28D1}.Release|x64.ActiveCfg = Release|x64
+		{37D52D93-82EB-383B-B33E-02C0D29F28D1}.Release|x64.Build.0 = Release|x64
+		{37D52D93-82EB-383B-B33E-02C0D29F28D1}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

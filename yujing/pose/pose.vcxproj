@@ -18,6 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main (2).cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{05BC4FE5-D460-4373-A996-F87E256F2FC1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -133,19 +136,16 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\soft\develop\opencv\opencv4.1.0\build\include;plog-master\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\soft\develop\opencv\opencv4.1.2\build\include;plog-master\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>H:\soft\develop\opencv\opencv4.1.0\build\x64\vc14\lib\opencv_world410.lib;H:\soft\develop\opencv\opencv4.1.0\buildvs15\lib\Release\opencv_aruco410.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>H:\soft\develop\opencv\opencv4.1.2\buildvs15\lib\Release\opencv_aruco412.lib;H:\soft\develop\opencv\opencv4.1.2\buildvs15\lib\Release\opencv_calib3d412.lib;H:\soft\develop\opencv\opencv4.1.2\buildvs15\lib\Release\opencv_core412.lib;H:\soft\develop\opencv\opencv4.1.2\buildvs15\lib\Release\opencv_features2d412.lib;H:\soft\develop\opencv\opencv4.1.2\buildvs15\lib\Release\opencv_flann412.lib;H:\soft\develop\opencv\opencv4.1.2\buildvs15\lib\Release\opencv_imgproc412.lib;H:\soft\develop\opencv\opencv4.1.2\buildvs15\lib\Release\opencv_highgui412.lib;H:\soft\develop\opencv\opencv4.1.2\buildvs15\lib\Release\opencv_imgcodecs412.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
